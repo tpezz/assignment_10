@@ -32,3 +32,14 @@ The application initializes the database by creating the required tables if they
    - Run the Go program with: go run main.go
    - The application will create the database, create tables, populate data, and display query results
 
+## Setup of Executable
+
+   - For Windows run: go build -o movie_db.exe main.go
+   - For Mac run: go build -o movie_db main.go
+
+## Run Executable
+   - For Windows: ./movie_db.exe
+   - For Max: ./MovieDB.app/Contents/MacOS/movie_db
+
+
+

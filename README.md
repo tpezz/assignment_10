@@ -17,15 +17,15 @@ The application initializes the database by creating the required tables if they
 
 1. **Download Data Files:**
    - Download the IMDb archive from Northwestern University's IMDb Data Files
-   - Extract the comma-delimited text files. For this project, focus on `IMDB-movies.csv`, `IMDB-actors.csv`, and`IMDB-roles.csv`.
+   - Extract the comma-delimited text files. For this project, focus on IMDB-movies.csv, IMDB-actors.csv, and IMDB-roles.csv.
 
 2. **Define the Database Schema:**
    - movies table: name, year, and rank
    - actors table: id, first_name, last_name
-   - roles table: id (autoincrement), actor_id, movie)id. This table links to the `movies` table via `movie_id` and to the `actors` table via `actor_id`, and includes a `role` column describing the character played.
+   - roles table: id (autoincrement), actor_id, movie)id. This table links to the movies table via movie_id and to the actors table via actor_id, and includes a role column describing the character played.
 
 3. **Install sqlite:**
-    - ru: go get modernc.org/sqlite
+    - run: go get modernc.org/sqlite
 
 
 4. **Running the Application:**

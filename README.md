@@ -5,7 +5,7 @@
 This project was created for week 10 in MSDS 431 and is focused on creating a local movie database application built using Go and SQLite. It uses IMDb data files from Northwestern University to create, populate, and query a relational database
 
 ## Project Functionality 
-The application initializes the database by creating the required tables if they do not exist. It then pulls in data from the CSV files and executres a join to demonstrate the functionality. Please note that this file takes a long time to run. I have slightly modified to code to not load all the databases so it will run faster.
+The application initializes the database by creating the required tables if they do not exist. It then pulls in data from the CSV files and executres a join to demonstrate the functionality. Please note that this file takes a long time to run.  If you want the code to run faster then comment out the roles table and remove it from the test query.
 
 ## Project Structure
 
